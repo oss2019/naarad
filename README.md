@@ -16,6 +16,24 @@ With every new event in college or any organisation, comes the burden of making 
 - Create a installable pip package for the same.
 - Secure and doesn't take password beyond user's system.
 
+## Detailed Description
+
+Below is a rough algorithm for the working of the application. This is to be improved as we move on with the project:
+
+```text
+Step: Take required input from the user
+Step: Login to facebook with given credentials using web driver
+Step: Open each link and using the web driver enter the form with data
+Step: Post and show success message
+
+The input taken will be:
+- Phone Number / Email (for login)
+- Password (for login)
+- List of links (via batch file or entering manually)
+- Text for the post
+- Image / Link for the post
+```
+
 ## Schedule
 
 #### Phase I
