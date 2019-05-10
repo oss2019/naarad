@@ -1,5 +1,7 @@
 # Naarad
 
+![Naarad Logo](/Logo.png)
+
 The chivalrous messenger god is here to reduce your burden of Digital Publicity of your college events in facebook groups.
 
 ## Motivation
