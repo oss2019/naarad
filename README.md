@@ -34,6 +34,36 @@ The input taken will be:
 - Image / Link for the post
 ```
 
+## Development Setup
+
+The development environment requires a linux system with Python 3.7
+
+#### Installing Pipenv
+
+We are using Pipenv for managing project development in a virtual environment and it is also the package manager here.
+
+[Why Pipenv?](https://opensource.com/article/18/2/why-python-devs-should-use-pipenv)
+
+[Install Pipenv](https://www.linode.com/docs/development/python/manage-python-environments-pipenv/#install-pipenv)
+
+#### Setting Environment First Time
+
+Below commands will setup the environment for the first time.
+
+```bash
+cd /project/directory
+pipenv shell --three
+pipenv install --dev
+```
+
+#### Development Etiquettes
+
+Please use `pipenv shell` to activate the already created virtual environment for the project (created in last step). 
+
+Once in the virtual environment, use the command `pipenv install PACKAGE_NAME1 PACKAGE_NAME2` to install new packages.
+
+**NOTE:** Do not install packages without pipenv. We will not be supporting requirements.txt standard. 
+
 ## Schedule
 
 #### Phase I
