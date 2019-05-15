@@ -36,7 +36,7 @@ The input taken will be:
 
 ## Development Setup
 
-The development environment requires a linux system with Python 3.7
+The development environment requires a linux system with Python 3.7 and [clone](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone) of the [forked version](https://help.github.com/en/articles/fork-a-repo) of this repository. 
 
 #### Installing Pipenv
 
@@ -84,11 +84,13 @@ Please raise a feature request or issue before sending PR for the same.
 
 Follow the below guidelines for proper coding practices:
 
+- Always [create a new branch](https://confluence.atlassian.com/bitbucket/branching-a-repository-223217999.html) for your changes and make PR from it ONLY.
 - Write neat code with proper comments.
 - Follow PEP8 coding style.
 - Write descriptive commit messages. Please [read this](https://github.com/erlang/otp/wiki/writing-good-commit-messages) for more information.
 - Write detailed PR messages and include `fixes #ISSUE_NUMBER` it if closes an issue, otherwise use `concerns #ISSUE_NUMBER` to tag the related issues. Please [refer here](https://github.blog/2015-01-21-how-to-write-the-perfect-pull-request/) for more PR guidelines.
 - It is recommended to have a single commit for a task.
+- Use [DRY principles](https://thealphadollar.github.io/learning/2019/05/13/go-dry.html) to create maintainable code.
 
 ## Communication
 
