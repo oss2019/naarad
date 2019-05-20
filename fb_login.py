@@ -7,8 +7,6 @@ print("Please enter your details for facebook login")
 # password = getpass.getpass("enter your password it would be hidden: ")
 # Enter your password and it's safe and hidden
 
-  # To open the web browser(google chrome)
-
 
 class Facebook:
 
