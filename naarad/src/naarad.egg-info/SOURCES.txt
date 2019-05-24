@@ -1,0 +1,7 @@
+README.md
+naarad
+setup.py
+naarad.egg-info/PKG-INFO
+naarad.egg-info/SOURCES.txt
+naarad.egg-info/dependency_links.txt
+naarad.egg-info/top_level.txt
