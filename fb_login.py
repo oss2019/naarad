@@ -23,3 +23,4 @@ class Facebook:
         self.driver.find_element_by_id('loginbutton').click()
 
 Facebook().fb_login()
+
