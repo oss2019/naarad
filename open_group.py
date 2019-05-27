@@ -32,4 +32,3 @@ Facebook().group_login()
 # opts = ChromeOptions()
 # opts.add_experimental_option("detach", True)
 # driver = Chrome(chrome_options=opts)
-
