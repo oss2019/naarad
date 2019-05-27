@@ -11,3 +11,4 @@ class Facebook:
         self.driver.get(self.link)
 
 Facebook().open_group()
+
