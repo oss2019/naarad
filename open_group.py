@@ -1,7 +1,5 @@
-# from selenium.webdriver import ChromeOptions, Chrome
 import getpass
 from selenium import webdriver
-
 
 print("Please enter your details for facebook login")
 
@@ -11,24 +9,19 @@ class Facebook:
     def __init__(self):
         self.username = input("enter your username: ")
         self.password = getpass.getpass("enter your password: ")
-        i = input("To enter a group link press '1':")
-        if i is '1':
-            self.link = input("enter the link:")
-            print("taking you to group page")
-        else:
-            print("Welcome to FB homepage")
-        self.driver = webdriver.Chrome()
+        self.link = input("enter the link:")
 
-    def group_login(self):
-        self.driver.get('https://facebook.com')  # To hit the URL
+    def group_page(self):
+        self.driver.get(self.link)
+
+    def fb_login(self):
+
+        self.driver = webdriver.Chrome()
+        self.driver.get("https://www.facebook.com/")
         self.driver.find_element_by_id('email').send_keys(self.username)
         self.driver.find_element_by_id('pass').send_keys(self.password)
         self.driver.find_element_by_id('loginbutton').click()
-        self.driver.get(self.link)
+        self.group_page()
 
 
-Facebook().group_login()
-
-# opts = ChromeOptions()
-# opts.add_experimental_option("detach", True)
-# driver = Chrome(chrome_options=opts)
+Facebook().fb_login()
