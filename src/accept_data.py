@@ -14,11 +14,20 @@ print("Please enter your details for facebook login")
 class Facebook:
 
     def __init__(self):
+        self.fb_details()
+        self.group_details()
+        self.info()
+        
+    def fb_details(self):
         self.username = input("enter your username: ")
         self.password = getpass.getpass("enter your password: ")
+        
+    def group_details(self):
         self.group = input("please enter group pages URL \
         seperated through ',' : ")
         self.group = self.group.split(',')
+        
+    def info(self):
         self.message = input("please enter a description")
         self.path = input("please tell the full path of Image/Video: ")
 
@@ -61,4 +70,5 @@ class Facebook:
         self.driver.find_element_by_id('loginbutton').click()
         self.group_pages()
 
+        
 Facebook().fb_login()
