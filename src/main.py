@@ -34,6 +34,11 @@ class Facebook:
     def group_pages(self):
         for i in range(len(self.groups)):
             self.link = self.groups[i]
+            self.link = self.link.replace(' ', '')
+            if self.link[-1] == '/':
+                self.link = self.link
+            else:
+                self.link += '/'
             self.driver.get(self.link)
             self.description()
             # self.image()
