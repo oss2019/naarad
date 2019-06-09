@@ -23,17 +23,17 @@ class Facebook:
         self.password = getpass.getpass("enter your password: ")
 
     def group_details(self):
-        self.group = input("please enter group pages URL \
+        self.groups = input("please enter group pages URL \
         seperated through ',' : ")
-        self.group = self.group.split(',')
+        self.groups = self.groups.split(',')
 
     def info(self):
         self.message = input("please enter a description")
         self.path = input("please tell the full path of Image/Video: ")
 
     def group_pages(self):
-        for i in range(len(self.group)):
-            self.link = self.group[i]
+        for i in range(len(self.groups)):
+            self.link = self.groups[i]
             self.driver.get(self.link)
             self.description()
             # self.image()
