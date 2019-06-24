@@ -23,8 +23,7 @@ class Facebook:
         self.password = getpass.getpass("enter your password: ")
 
     def group_details(self):
-        self.groups = input("please enter group pages URL \
-        seperated through ',' : ")
+        self.groups = input("please enter group pages URL seperated through ',' : ")
         self.groups = self.groups.split(',')
 
     def info(self):
@@ -45,8 +44,7 @@ class Facebook:
             self.publish()
 
     def description(self):
-        description_box = /
-        self.driver.find_element(By.XPATH, "//*[@name='xhpc_message_text']")
+        description_box = self.driver.find_element(By.XPATH, "//*[@name='xhpc_message_text']")
         time.sleep(5)
         description_box.send_keys(self.message)
         time.sleep(5)
