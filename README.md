@@ -13,6 +13,7 @@ With every new event in college or any organisation, comes the burden of making 
 - Allow posting in multiple groups by providing the list of groups and the required content.
 - Accept list and content in multiple formats.
 - Allow posting for two types of posts: embed and non embed.
+- Allow posting an new post as well existing post.
 - Create a installable pip package for the same.
 - Secure and doesn't take password beyond user's system.
 
@@ -23,13 +24,16 @@ Below is a rough algorithm for the working of the application. This is to be imp
 ```text
 Step: Take required input from the user
 Step: Login to facebook with given credentials using web driver
+Step: Selecting the type of post to be shared
 Step: Open each link and using the web driver enter the form with data
 Step: Post and show success message
+Step: 
 
 The input taken will be:
 - Phone Number / Email (for login)
 - Password (for login)
 - List of links (via batch file or entering manually)
+- existing post or new post
 - Text for the post
 - Image / Link for the post
 ```
