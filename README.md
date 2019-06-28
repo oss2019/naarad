@@ -13,7 +13,7 @@ With every new event in college or any organisation, comes the burden of making 
 - Allow posting in multiple groups by providing the list of groups and the required content.
 - Accept list and content in multiple formats.
 - Allow posting for two types of posts: embed and non embed.
-- Allow posting an new post as well existing post.
+- Allow posting a new post as well existing post.
 - Create a installable pip package for the same.
 - Secure and doesn't take password beyond user's system.
 
@@ -97,9 +97,10 @@ Follow the below guidelines for proper coding practices:
 - Use [DRY principles](https://thealphadollar.github.io/learning/2019/05/13/go-dry.html) to create maintainable code.
 
 ## Communication
-
+[Badges](https://img.shields.io/github/issues/oss2019/naarad.svg)
 All contributors / users are requested to join [Gitter channel](https://gitter.im/oss2019/naarad) for further discussion on ideas, PRs and issues.
 
 For issues please raise a ticket in the issues tab in the [Naarad github repository](https://www.github.com/oss2019/naarad).
 
-Mentor for the project: thealphadollar (https://www.github.com/thealphadollar/)
+Mentor for the project: [thealphadollar](https://www.github.com/thealphadollar/)
+
