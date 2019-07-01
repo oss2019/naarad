@@ -74,7 +74,8 @@ Once in the virtual environment, use the command `pipenv install PACKAGE_NAME1 P
 #### For Linux
 
 Follow this command in your development Environment in your project folder
-```$ sudo apt-get install python-pip
+```
+$ sudo apt-get install python-pip
 $ sudo pip install selenium
 ```
 ## Schedule
