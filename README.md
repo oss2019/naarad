@@ -27,7 +27,6 @@ Step: Login to facebook with given credentials using web driver
 Step: Selecting the type of post to be shared
 Step: Open each link and using the web driver enter the form with data
 Step: Post and show success message
-Step: 
 
 The input taken will be:
 - Phone Number / Email (for login)
@@ -67,6 +66,10 @@ Please use `pipenv shell` to activate the already created virtual environment fo
 Once in the virtual environment, use the command `pipenv install PACKAGE_NAME1 PACKAGE_NAME2` to install new packages.
 
 **NOTE:** Do not install packages without pipenv. We will not be supporting requirements.txt standard. 
+
+#### For Windows 
+
+[Download](https://www.seleniumhq.org/download/) the web driver according to version/type of your browser. Make sure that EXE file downloaded is inside the the project folder. In your development environment you can run the py file.
 
 ## Schedule
 
