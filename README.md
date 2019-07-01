@@ -71,6 +71,12 @@ Once in the virtual environment, use the command `pipenv install PACKAGE_NAME1 P
 
 [Download](https://www.seleniumhq.org/download/) the web driver according to version/type of your browser. Make sure that EXE file downloaded is inside the the project folder. In your development environment you can run the py file.
 
+#### For Linux
+
+Follow this command in your development Environment in your project folder
+```$ sudo apt-get install python-pip
+$ sudo pip install selenium
+```
 ## Schedule
 
 #### Phase I
