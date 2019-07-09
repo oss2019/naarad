@@ -13,6 +13,7 @@ With every new event in college or any organisation, comes the burden of making 
 - Allow posting in multiple groups by providing the list of groups and the required content.
 - Accept list and content in multiple formats.
 - Allow posting for two types of posts: embed and non embed.
+- Allow posting a new post as well existing post.
 - Create a installable pip package for the same.
 - Secure and doesn't take password beyond user's system.
 
@@ -23,6 +24,7 @@ Below is a rough algorithm for the working of the application. This is to be imp
 ```text
 Step: Take required input from the user
 Step: Login to facebook with given credentials using web driver
+Step: Selecting the type of post to be shared
 Step: Open each link and using the web driver enter the form with data
 Step: Post and show success message
 
@@ -30,6 +32,7 @@ The input taken will be:
 - Phone Number / Email (for login)
 - Password (for login)
 - List of links (via batch file or entering manually)
+- existing post or new post
 - Text for the post
 - Image / Link for the post
 ```
@@ -64,6 +67,22 @@ Once in the virtual environment, use the command `pipenv install PACKAGE_NAME1 P
 
 **NOTE:** Do not install packages without pipenv. We will not be supporting requirements.txt standard. 
 
+#### For Windows 
+
+[Download](https://www.seleniumhq.org/download/) the web driver according to version/type of your browser. Make sure that EXE file downloaded is inside the the project folder. Use this command to install project dependencies.
+``` pip install selenium
+```
+In your development environment you can run the py file.
+
+#### For Linux
+
+Follow this command in your development Environment in your project folder
+```
+$ sudo apt-get install python-pip
+$ sudo pip install selenium
+```
+[Download](https://www.seleniumhq.org/download/) the web driver according to version/type of your browser. Make sure that EXE file downloaded is inside the the project folder where main.py file is present otherwise it would show an error of "webdriver not found".
+
 ## Schedule
 
 #### Phase I
@@ -93,9 +112,10 @@ Follow the below guidelines for proper coding practices:
 - Use [DRY principles](https://thealphadollar.github.io/learning/2019/05/13/go-dry.html) to create maintainable code.
 
 ## Communication
-
+[Badges](https://img.shields.io/github/issues/oss2019/naarad.svg)
 All contributors / users are requested to join [Gitter channel](https://gitter.im/oss2019/naarad) for further discussion on ideas, PRs and issues.
 
 For issues please raise a ticket in the issues tab in the [Naarad github repository](https://www.github.com/oss2019/naarad).
 
-Mentor for the project: thealphadollar (https://www.github.com/thealphadollar/)
+Mentor for the project: [thealphadollar](https://www.github.com/thealphadollar/)
+
